@@ -1,0 +1,294 @@
+Date: Mon, 11 Oct 2021 16:27:15 -0500 (CDT)
+Message-ID: <666378614.2762.1633987635998@EASMN203V.uncle_bob.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2761_2065429241.1633987635998"
+
+------=_Part_2761_2065429241.1633987635998
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Standards For Robot Framework Portability</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Standards For Robot Framework Portability</h1>
+    <div class=3D"Section1">
+        <div style=3D"display: none;">
+<br>
+</div>
+<h1 id=3D"StandardsForRobotFrameworkPortability-AllTestCodeShouldBeReviewed=
+AndMeetTheDefinitionofDone">All Test Code Should Be Reviewed And Meet The D=
+efinition of Done</h1>
+<ul>
+<li>Test Code should meet all the standards of product code in both style a=
+nd quality.</li>
+<li>"Definition of Done" in this context means that the test code is comple=
+te and functioning as designed.</li>
+</ul>
+<h1 id=3D"StandardsForRobotFrameworkPortability-AllTestsShouldBeActivelyExe=
+cutedAsPartOfRegularTestingInitiatives">All Tests Should Be Actively Execut=
+ed As Part Of Regular Testing Initiatives</h1>
+<ul>
+<li>Any test considered for usability should be code that is regularly exec=
+uted and part of the release cycle.</li>
+<li>It should live as part of a Jenkins Job or other planned test cycle of =
+the team.</li>
+</ul>
+<h1 id=3D"StandardsForRobotFrameworkPortability-CodeWrittenPrimarilyInRobot=
+FrameworkShouldBeIsolated">Code Written Primarily In Robot Framework Should=
+ Be Isolated</h1>
+<ul>
+<li>Both Tests and Resources written in Robot Framework should be able to b=
+e ported to another project with minimal refactoring.</li>
+<li>Introducing RF code from one project to another should not result in al=
+tering either of the projects negatively.</li>
+<li>The code should be completely contained in easy to move Resource/Test f=
+olders.</li>
+<li>If the RF library is to be shared by more than one project it is advise=
+d to refactor it as a python based library and packaged as a pip installabl=
+e library.</li>
+</ul>
+<h1 id=3D"StandardsForRobotFrameworkPortability-RobotFrameworkLibrariesWrit=
+tenInPythonShouldBeIsolated">Robot Framework Libraries Written In Python Sh=
+ould Be&nbsp;Isolated</h1>
+<ul>
+<li>Python based Robot Framework custom libraries should meet the Python st=
+yle and code quality.</li>
+<li>The library should follow the best practices put forth by the Robot Fra=
+mework user guide.</li>
+<li>If possible, the library should be packaged as a pip installable librar=
+y.</li>
+</ul>
+<h1 id=3D"StandardsForRobotFrameworkPortability-TestCodeShouldBeSystemAgnos=
+tic">Test Code Should Be System Agnostic</h1>
+<ul>
+<li>Tests can be executed against an application regardless of system domai=
+n</li>
+<li>There might be limitations in regards to application version though (i.=
+e. new functionality, different functionality, etc ...)</li>
+<li>It may be necessary to implement test data portability in conjunction w=
+ith tests.</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_2761_2065429241.1633987635998--

@@ -1,0 +1,338 @@
+Date: Mon, 11 Oct 2021 16:27:32 -0500 (CDT)
+Message-ID: <1196106628.2768.1633987652410@EASMN203V.uncle_bob.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2767_1094213689.1633987652410"
+
+------=_Part_2767_1094213689.1633987652410
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Variables - Best Practices</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Variables - Best Practices</h1>
+    <div class=3D"Section1">
+        <div style=3D"display: none;">
+<br>
+</div>
+<h1 id=3D"VariablesBestPractices-UserManualLink:http://robotframework.org/r=
+obotframework/latest/RobotFrameworkUserGuide.html#variables">User Manual Li=
+nk:&nbsp;<a href=3D"http://robotframework.org/robotframework/latest/RobotFr=
+ameworkUserGuide.html#variables" class=3D"external-link" rel=3D"nofollow">h=
+ttp://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html=
+#variables</a></h1>
+<h1 id=3D"VariablesBestPractices-Variables">Variables</h1>
+<ul>
+<li>Variables are either&nbsp;CONSTANT_CASE&nbsp; or snake_case</li>
+<li>CONSTANT_CASE are to be used for:
+<ul>
+<li>Global Variables</li>
+<li>Suite Variables</li>
+<li>Test Variables</li>
+</ul></li>
+<li>snake_case are to be user for:
+<ul>
+<li>Keyword Arguments</li>
+<li>Local Variables</li>
+</ul></li>
+<li>Over abbreviation of a variable is generally not a good idea, but reall=
+y bad for Global, Suite, or Test variables.</li>
+<li>Excessively long variables are also a bad idea and usually indicate tha=
+t there might be a better way to manage the data being represented.</li>
+<li>DO NOT use spaces in the variable name!</li>
+</ul>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Examples:</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence" data-theme=3D"Confluence">${I_AM_=
+A_SUITE_VARIABLE}
+${I_AM_A_GLOBAL_VARIABLE}
+${I_AM_A_TEST_VARIABLE}
+
+This Is A Keyword
+  [Arguments]  ${argument_variable}
+  ${local_variable}  Set Variable If
+  ...  '${argument_variable}'=3D=3D'Good'  Good
+  ...  Bad
+  Log To Console  Your Variable is: ${local_variable}</pre>=20
+</div>
+</div>
+<h1 id=3D"VariablesBestPractices-VariableScope">Variable Scope</h1>
+<p>As with other scripting languages it is always better to start thinking =
+about the scope of a variable.</p>
+<ul>
+<li>If a variable is only important to a single keyword it should remain a =
+local variable.</li>
+<li>If a variable is only important to an individual test, then it should b=
+e a test variable.</li>
+<li>If a variable is only important to an individual suite, then it should =
+be a suite variable.</li>
+<li>If any single variable is accessed by more than one keyword or test, th=
+en considerations should be made for it to be a global variable.</li>
+<li>Do not arbitrarily make variables global. This may lead to duplicate va=
+lue assignments during a test execution.</li>
+</ul>
+<p><br></p>
+<p>Good examples:</p>
+<ul>
+<li>a local variable for a unique Selenium Locator</li>
+<li>a test variable for data that is reset between tests</li>
+<li>a suite variable for conditions that apply to all the test within a sui=
+te</li>
+<li>a global variable to manage system URLs</li>
+</ul>
+<h1 id=3D"VariablesBestPractices-VariableNames">Variable Names</h1>
+<ul>
+<li>It is a good idea to name variables with scope in mind.</li>
+<li>What is this variable?</li>
+<li>Why do you need it?</li>
+<li>Where is it important?</li>
+<li>Since Robot Framework is dynamically typed, it can be helpful to tag wh=
+at type it is. Adding these suffixes are helpful:
+<ul>
+<li>_dict</li>
+<li>_list</li>
+<li>_locator</li>
+<li>_webelement</li>
+<li>_string</li>
+<li>_int</li>
+<li>_TEST</li>
+<li>_SUITE</li>
+<li>_GLOBAL</li>
+</ul></li>
+<li>Good Variable Names:
+<ul>
+<li>${3_1_1_TEST_DATA_DICT}</li>
+<li>${call_id_text_locator}</li>
+<li>${call_details_button}</li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_2767_1094213689.1633987652410--

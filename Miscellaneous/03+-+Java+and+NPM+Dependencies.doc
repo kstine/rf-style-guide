@@ -1,0 +1,324 @@
+Date: Thu, 11 Nov 2021 08:19:37 -0600 (CST)
+Message-ID: <388055427.9218.1636640377340@EASMN203V.uncle_bob.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_9217_492566330.1636640377340"
+
+------=_Part_9217_492566330.1636640377340
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>03 - Java and NPM Dependencies</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>03 - Java and NPM Dependencies</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"id-03JavaandNPMDependencies-Webdriver-ManagerForDevelopme=
+nt">Webdriver-Manager For Development</h1>
+<p>Webdriver-manager is a tool from AngularJS test framework Protractor. It=
+ is useful for "testing the tests".</p>
+<p>In order for any selenium based test to run a selenium service provider =
+must be running first (webdriver-manager, docker, browserstack, saucelabs, =
+etc ...).</p>
+<p><strong>Before you run tests that require selenium, be sure the service =
+is running!</strong></p>
+<h4 id=3D"id-03JavaandNPMDependencies-InstallJava(minimumisversion8)">Insta=
+ll Java (minimum is version 8)</h4>
+<p>Java&nbsp;1.8&nbsp;sdk&nbsp;&lt;<a href=3D"https://www.oracle.com/techne=
+twork/java/javase/downloads/jdk8-downloads-2133151.html" class=3D"external-=
+link" rel=3D"nofollow">https://www.oracle.com/technetwork/java/javase/downl=
+oads/jdk8-downloads-2133151.html</a>&gt;</p>
+<h4 id=3D"id-03JavaandNPMDependencies-Installnodejsversionv14.17.3:">Instal=
+l nodejs version v14.17.3:</h4>
+<p><a href=3D"https://nodejs.org/en/" class=3D"external-link" rel=3D"nofoll=
+ow">https://nodejs.org/en/</a></p>
+<h4 id=3D"id-03JavaandNPMDependencies-Installwebdriver-manager:">Install we=
+bdriver-manager:</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Install webdriver-manager</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence" data-theme=3D"Confluence">npm ins=
+tall -g webdriver-manager</pre>=20
+</div>
+</div>
+<ul>
+<li><a href=3D"https://www.npmjs.com/package/webdriver-manager" class=3D"ex=
+ternal-link" rel=3D"nofollow">https://www.npmjs.com/package/webdriver-manag=
+er</a></li>
+</ul>
+<p><br></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">If you have issues executing the manager</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: powershell; gutter: false; theme: Confluence" data-theme=3D"Confluence">S=
+et-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted</pre>=
+=20
+</div>
+</div>
+</div>
+</div>
+<h5 id=3D"id-03JavaandNPMDependencies-Torunthewebdriver-manager:">To run th=
+e webdriver-manager:</h5>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence" data-theme=3D"Confluence">webdriv=
+er-manager start --detach</pre>=20
+</div>
+</div>
+<h5 id=3D"id-03JavaandNPMDependencies-Toshutdownthewebdriver-manager:">To s=
+hutdown the webdriver-manager:</h5>
+<p><em>Because of a long standing bug in the npm package that has yet to be=
+ fixed ...</em></p>
+<ol>
+<li>Run this code:</li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: powershell; gutter: false; theme: Confluence" data-theme=3D"Confluence">n=
+etstat -ano|findstr "Local Address 0.0.0.0:4444"</pre>=20
+</div>
+</div>
+<p style=3D"margin-left: 30.0px;">2. Identify the PID<br><br>3. Then run th=
+is:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: powershell; gutter: false; theme: Confluence" data-theme=3D"Confluence">k=
+ill &lt;PID&gt;</pre>=20
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_9217_492566330.1636640377340--

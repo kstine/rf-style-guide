@@ -1,0 +1,279 @@
+Date: Mon, 11 Oct 2021 16:25:18 -0500 (CDT)
+Message-ID: <1905538593.2726.1633987518450@EASMN203V.uncle_bob.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2725_1639992853.1633987518450"
+
+------=_Part_2725_1639992853.1633987518450
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>03 - Naming</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>03 - Naming</h1>
+    <div class=3D"Section1">
+        <div style=3D"display: none;">
+<br>
+</div>
+<p>Robocop references 0301, 0302, 0303, 0304, 0305, 0306, 0307, 0308, 0309,=
+ 0310, 0311, 0312, 0313 (0314, 0315, 0316, 0317) :&nbsp;<a href=3D"https://=
+robocop.readthedocs.io/en/stable/rules.html#naming" class=3D"external-link"=
+ rel=3D"nofollow">Robocop Rules- Naming</a></p>
+<p><br></p>
+<h1 id=3D"id-03Naming-InvalidCharactersinNames([W0301]invalid-char-in-name)=
+">Invalid Characters in Names ([W0301] invalid-char-in-name)</h1>
+<p>"." and "?" characters are typically avoided within Keyword and Test nam=
+es, if you have no choice you should disable the rule.</p>
+<pre><br></pre>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence" data-theme=3D"Confluence">#&nbsp;=
+robocop:&nbsp;disable=3Dinvalid-char-in-name
+Verify&nbsp;"NO&nbsp;DATA&nbsp;FOUND."&nbsp;Text&nbsp;When&nbsp;List&nbsp;I=
+s&nbsp;Empty
+  [Documentation]
+  ...  Asserts:
+  ...  - Length Should Be
+&nbsp;&nbsp;${nodata_webelements}&nbsp;&nbsp;Get&nbsp;WebElements&nbsp;&nbs=
+p;css:div.k-nodata
+&nbsp;&nbsp;${no_data_text}&nbsp;&nbsp;Evaluate&nbsp;&nbsp;[we.text&nbsp;fo=
+r&nbsp;we&nbsp;in&nbsp;$nodata_webelements&nbsp;if&nbsp;we.text=3D=3D"NO&nb=
+sp;DATA&nbsp;FOUND."]
+&nbsp;&nbsp;Length&nbsp;Should&nbsp;Be&nbsp;&nbsp;${no_data_text}&nbsp;&nbs=
+p;1</pre>=20
+</div>
+</div>
+<h1 id=3D"id-03Naming-TitleCasingKeywordsAndTests([W0302]wrong-case-in-keyw=
+ord-name,[W0308]not-capitalized-test-case-title)"><br>Title Casing Keywords=
+ And Tests ([W0302] wrong-case-in-keyword-name,&nbsp;[W0308] not-capitalize=
+d-test-case-title)</h1>
+<p>Bad:</p>
+<pre>Verify&nbsp;"NO&nbsp;DATA&nbsp;FOUND." text when list is empty</pre>
+<p><br>Good:</p>
+<pre>Verify&nbsp;"NO&nbsp;DATA&nbsp;FOUND."&nbsp;Text&nbsp;When&nbsp;List&n=
+bsp;Is&nbsp;Empty<br><br><br></pre>
+    </div>
+</body>
+</html>
+------=_Part_2725_1639992853.1633987518450--

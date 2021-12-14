@@ -1,0 +1,382 @@
+Date: Mon, 11 Oct 2021 16:26:45 -0500 (CDT)
+Message-ID: <381613601.2752.1633987605888@EASMN203V.uncle_bob.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2751_2074705179.1633987605888"
+
+------=_Part_2751_2074705179.1633987605888
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Keywords - Documentation (Proposed)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Keywords - Documentation (Proposed)</h1>
+    <div class=3D"Section1">
+        <p>Purpose: To&nbsp; leverage the VSCode Extension "Robot Framework=
+ Language Server" ability to preview Keyword Documentation.</p>
+<p><br></p>
+<p>After reviewing a few docstring styles, the one that proved most adaptab=
+le to Robot Framework was from Google:&nbsp;<a href=3D"https://github.com/g=
+oogle/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings" class=
+=3D"external-link" rel=3D"nofollow">https://github.com/google/styleguide/bl=
+ob/gh-pages/pyguide.md#38-comments-and-docstrings</a></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+It goes without saying that any part of Robot Framework that is Python shou=
+ld follow the docstring guidance from the PEP8 Python Style Guide.
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"KeywordsDocumentation(Proposed)-TheBareMinimum">The Bare Minimum<=
+/h1>
+<p>Documentation should be always listed for every keyword and for every "*=
+** Settings ***" section within a resource or robot file.</p>
+<p>The minimum string used should be "None".</p>
+<p>"None" is reserved for the case where the keyword is self defining.</p>
+<p>"None" used for a resource or robot file is not acceptable.</p>
+<h1 id=3D"KeywordsDocumentation(Proposed)-ResourceandRobotFiles">Resource a=
+nd Robot Files</h1>
+<p>Provide a few lines describing what the file is for.</p>
+<p>It can be a simple as <code>New Calls Page Object</code> or <code>REST A=
+PI Endpoint Parsing Keyword Library</code></p>
+<h1 id=3D"KeywordsDocumentation(Proposed)-Keywords-Noarguments,noreturns,no=
+assertions">Keywords- No arguments, no returns, no assertions</h1>
+<p>Provide a one or two lines description of what the keyword does.</p>
+<p><span style=3D"color: rgb(36,41,47);">The description should be descript=
+ive-style (</span><code>Fetches rows from a Bigtable.</code><span style=3D"=
+color: rgb(36,41,47);">) rather than imperative-style (</span><code>Fetch r=
+ows from a Bigtable.</code><span style=3D"color: rgb(36,41,47);">).</span><=
+/p>
+<h1 id=3D"KeywordsDocumentation(Proposed)-Keywords-Arguments">Keywords- Arg=
+uments</h1>
+<p>Basic argument documentation syntax:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence" data-theme=3D"Confluence">This Is=
+ A Keyword With Arguments
+  [Documentation]  This keyword does things.
+  ...
+  ...  Args:
+  ...  - i_am_an_argument (str): required
+  ...  - dict_var (dict):
+  ...      required, expected keys [key1, key2, key3]
+  ...  - i_am_an_arg_with_default (str): defaults to [None]
+  ...  - a_var_assigned_to_a_var (int):  defaults to [$GLOBAL_INT_VAR]
+  [Arguments]  ${i_am_an_argument}  ${dict_var}  ${i_am_an_arg_with_default=
+}=3D${NONE}  ${a_var_assigned_to_a_var}=3D${GLOBAL_INT_VAR}</pre>=20
+</div>
+</div>
+<p>As you can see there is an general pattern.</p>
+<ul>
+<li>Initial Documentation line(s)</li>
+<li>Blank return line</li>
+<li>"Args:" header</li>
+<li>List of the arguments starting with a "- " (translates to a bullet poin=
+t in the intelligent description popup)</li>
+<li>An argument line has: name of argument without scalar notation, type in=
+ parens, colon, description</li>
+<li>Typing is the same as standard Python typing.</li>
+<li>Descriptions usually start with whether the argument is required or def=
+aulted (optional)</li>
+<li>If needed the argument description can be placed below the arg line, an=
+d indented.</li>
+<li>When optional the default value is put in a set of brackets.</li>
+</ul>
+<h1 id=3D"KeywordsDocumentation(Proposed)-Keywords-Returns">Keywords- Retur=
+ns</h1>
+<p>Basic return documentation syntax:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence" data-theme=3D"Confluence">This Is=
+ A Keyword With Arguments
+  [Documentation]  This keyword does things.
+  ...
+  ...  Returns:
+  ...  - (str): returns a string</pre>=20
+</div>
+</div>
+<p>As you can see, the syntax is similar.</p>
+<ul>
+<li>Initial Documentation line(s) or an "Args" section</li>
+<li>Blank return line</li>
+<li>"Returns:" header</li>
+<li>List of the returns starting with a "- " (translates to a bullet point =
+in the intelligent description popup)</li>
+<li>An returns line has: type in parens, colon, description</li>
+<li>Typing is the same as standard Python typing.</li>
+<li>Descriptions are as needed.</li>
+</ul>
+<p>If a Keyword creates a GLOBAL, SUITE, or TEST variable the pattern chang=
+es slightly:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence" data-theme=3D"Confluence">Create =
+The Global Int Variable
+  [Documentation]  Creates a global int variable
+  ...
+  ...  Returns:
+  ...  - GLOBAL_INT_VAR (int): GLOBAL</pre>=20
+</div>
+</div>
+<ul>
+<li>The pattern is changed to include the constant cased variable without s=
+calar notation and the scope listed in all caps in the beginning of the des=
+cription.</li>
+</ul>
+<h1 id=3D"KeywordsDocumentation(Proposed)-Keywords-Assertions">Keywords- As=
+sertions</h1>
+<p>This section is only for keywords that have an assertion type keyword (i=
+.e. Should...)</p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence" data-theme=3D"Confluence">Verify =
+That Normalcy Has Been Attained
+  [Documentation]  Is it normal?
+  ...
+  ...  Asserts:
+  ...  - Should Be Equal: established that things are equal</pre>=20
+</div>
+</div>
+<p>The syntax provides quick clarity on what the keyword is asserting.</p>
+<ul>
+<li>Initial Documentation line(s) or an "Args" section or "Returns" section=
+</li>
+<li>Blank return line</li>
+<li>"Asserts:" header</li>
+<li>List of the returns starting with a "- " (translates to a bullet point =
+in the intelligent description popup)</li>
+<li>An asserts line has: Name of Asserting Keyword, colon, description</li>
+<li>Description should be as detailed as needed</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_2751_2074705179.1633987605888--

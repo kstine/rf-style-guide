@@ -1,0 +1,371 @@
+Date: Mon, 11 Oct 2021 16:24:59 -0500 (CDT)
+Message-ID: <466297107.2722.1633987499544@EASMN203V.uncle_bob.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2721_2116808790.1633987499544"
+
+------=_Part_2721_2116808790.1633987499544
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Robot Framework Style Guide</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Robot Framework Style Guide</h1>
+    <div class=3D"Section1">
+        <div style=3D"display: none;">
+<br>
+</div>
+<h2 id=3D"RobotFrameworkStyleGuideForOSI-RobotFramework">Robot Framework</h=
+2>
+<h2 id=3D"RobotFrameworkStyleGuideForOSI-FromtheRobotFrameworkMainPage:">Fr=
+om the <a href=3D"https://robotframework.org/" class=3D"external-link" rel=
+=3D"nofollow">Robot Framework</a> Main Page:</h2>
+<div class=3D"confluence-information-macro has-no-icon confluence-informati=
+on-macro-information">
+<div class=3D"confluence-information-macro-body">
+<blockquote>
+<p><strong>Robot Framework</strong><span>&nbsp;</span>is a generic open sou=
+rce automation framework. It can be used for test automation and robotic pr=
+ocess automation (RPA).</p>
+<p>Robot Framework is actively supported, with many industry-leading compan=
+ies using it in their software development.</p>
+<p><span style=3D"color: rgb(33,37,41);">Robot Framework is open and extens=
+ible and can be integrated with virtually any other tool to create powerful=
+ and flexible automation solutions. Being open source also means that Robot=
+ Framework is free to use without licensing costs.</span></p>
+<p><br></p>
+<p>Robot Framework has easy syntax, utilizing human-readable keywords. Its =
+capabilities can be extended by libraries implemented with Python or Java. =
+The framework has a rich ecosystem around it, consisting of<span>&nbsp;</sp=
+an><a style=3D"text-decoration: none;" href=3D"https://robotframework.org/#=
+libraries" class=3D"external-link" rel=3D"nofollow">libraries</a><span>&nbs=
+p;</span>and<span>&nbsp;</span><a style=3D"text-decoration: none;" href=3D"=
+https://robotframework.org/#tools" class=3D"external-link" rel=3D"nofollow"=
+>tools</a><span>&nbsp;</span>that are developed as separate projects.</p>
+<p>Robot Framework project is hosted on<span>&nbsp;</span><a style=3D"text-=
+decoration: none;" href=3D"https://github.com/robotframework/robotframework=
+" class=3D"external-link" rel=3D"nofollow">GitHub</a><span>&nbsp;</span>whe=
+re you can find further documentation, source code, and issue tracker. Down=
+loads are hosted at<span>&nbsp;</span><a style=3D"text-decoration: none;" h=
+ref=3D"https://pypi.python.org/pypi/robotframework" class=3D"external-link"=
+ rel=3D"nofollow">PyPI</a>.</p>
+<p>Robot Framework is operating system and application independent. The cor=
+e framework is implemented using<span>&nbsp;</span><a style=3D"text-decorat=
+ion: none;" href=3D"http://python.org/" class=3D"external-link" rel=3D"nofo=
+llow">Python</a><span>&nbsp;</span>and also runs on<span>&nbsp;</span><a hr=
+ef=3D"http://jython.org/" style=3D"text-decoration: none;" class=3D"externa=
+l-link" rel=3D"nofollow">Jython</a><span>&nbsp;</span>(JVM) and<span>&nbsp;=
+</span><a style=3D"text-decoration: none;" href=3D"http://ironpython.net/" =
+class=3D"external-link" rel=3D"nofollow">IronPython</a><span>&nbsp;</span>(=
+.NET).</p>
+<p>Robot Framework itself is open source software released under<span>&nbsp=
+;</span><a style=3D"text-decoration: none;" href=3D"http://www.apache.org/l=
+icenses/LICENSE-2.0.html" class=3D"external-link" rel=3D"nofollow">Apache L=
+icense 2.0</a>, and most of the libraries and tools in the ecosystem are al=
+so open source. The framework was initially developed at<span>&nbsp;</span>=
+<a href=3D"http://networks.nokia.com/" style=3D"text-decoration: none;" cla=
+ss=3D"external-link" rel=3D"nofollow">Nokia Networks</a><span>&nbsp;</span>=
+and was open sourced in 2008.</p>
+</blockquote>
+</div>
+</div>
+<p><br></p>
+<p>Robot Framework can test just about anything, but in current context=
+ it excels at Web UI, Mobile, REST API testing. It is capable of desktop ap=
+plication, web socket, database, and ssh testing.</p>
+<h2 id=3D"RobotFrameworkStyleGuideForOSI-StyleGuidance">Style Guidance</h2>
+<ul>
+<li><a href=3D"/display/RFR/Cleaning+And+Organizing+Robot+Framework+Code">C=
+leaning And Organizing Robot Framework Code</a></li>
+<li><a href=3D"/pages/viewpage.action?pageId=3D131871236">Custom Keyword Li=
+braries (Python)</a></li>
+<li><a href=3D"/display/RFR/Files+-+Extensions%2C+Naming%2C+Relationships">=
+Files - Extensions, Naming, Relationships</a></li>
+<li><a href=3D"/display/RFR/Folder+Structure+-+Best+Practices">Folder Struc=
+ture - Best Practices</a></li>
+<li><a href=3D"/display/RFR/How+to+write+good+Test+Cases">How to write good=
+ Test Cases</a></li>
+<li><a href=3D"/display/RFR/Keywords+-+Best+Practices">Keywords - Best Prac=
+tices</a></li>
+<li><a href=3D"/display/RFR/Keywords+-+Functional+Naming">Keywords - Functi=
+onal Naming</a></li>
+<li><a href=3D"/display/RFR/Keywords+-+Types+Of+Keywords">Keywords - Types =
+Of Keywords</a></li>
+<li><a href=3D"/display/RFR/Files+-+Extensions%2C+Naming%2C+Relationships">=
+Files - Extensions, Naming, Relationships</a></li>
+<li><a href=3D"/display/RFR/Recommended+Robot+Framework+Libraries">Recommen=
+ded Robot Framework Libraries</a></li>
+<li><a href=3D"/display/RFR/Standards+For+Robot+Framework+Portability">Stan=
+dards For Robot Framework Portability</a></li>
+<li><a href=3D"/pages/viewpage.action?pageId=3D131878283">Suite / Test Setu=
+p And Teardown</a></li>
+<li><a href=3D"/display/RFR/Test+Writing+Process">Test Writing Process</a><=
+/li>
+<li><a href=3D"/display/RFR/Test+Case+Data+Generation">Test Case Data Gener=
+ation</a></li>
+<li><a href=3D"/display/RFR/Variables+-+Best+Practices">Variables - Best Pr=
+actices</a></li>
+</ul>
+<h2 id=3D"RobotFrameworkStyleGuideForOSI-TheBestSourceOfInformation:TheRobo=
+tFrameworkUserGuide">The Best Source Of Information: The Robot Framework Us=
+er Guide</h2>
+<ul>
+<li>It would be anti-DRY to not refer to it.</li>
+<li><a href=3D"https://robotframework.org/robotframework/latest/RobotFramew=
+orkUserGuide.html" class=3D"external-link" rel=3D"nofollow">https://robotfr=
+amework.org/robotframework/latest/RobotFrameworkUserGuide.html</a></li>
+<li>Also, it will be updated as RF is updated.</li>
+</ul>
+<h2 id=3D"RobotFrameworkStyleGuideForOSI-RobocopAndTheRules">Robocop And Th=
+e Rules</h2>
+<p>Robot Framework does have its community style that should be generally f=
+ollowed and can be enforced by implementation of a Python package called <a=
+ href=3D"/display/RFR/03+-+Robocop">Robocop</a>.&nbsp;</p>
+<p>Robocop is the primary static code analysis tool for making sure Robot F=
+ramework code is following standard community practices.</p>
+<p>For setup and installation please refer to:&nbsp;<a href=3D"/display/RFR=
+/Cleaning+And+Organizing+Robot+Framework+Code">Cleaning And Organizing Robo=
+t Framework Code</a>&nbsp;and&nbsp;<a href=3D"/display/RFR/Visual+Studio+Co=
+de+Setup">Visual Studio Code Setup</a></p>
+<p>For reference to all the rules:&nbsp;<a href=3D"https://robocop.readthed=
+ocs.io/en/latest/rules.html" class=3D"external-link" rel=3D"nofollow">https=
+://robocop.readthedocs.io/en/latest/rules.html#</a></p>
+<ul>
+<li><a href=3D"/display/RFR/02+-+Documentation">02 - Documentation</a></li>
+<li><a href=3D"/display/RFR/03+-+Naming">03 - Naming</a></li>
+<li><a href=3D"/display/RFR/04+-+Errors">04 - Errors</a></li>
+<li><a href=3D"/display/RFR/05+-+Lengths">05 - Lengths</a></li>
+<li><a href=3D"/display/RFR/06+-+Tags">06 - Tags</a></li>
+<li><a href=3D"/display/RFR/07+-+Comments">07 - Comments</a></li>
+<li><a href=3D"/display/RFR/08+-+Duplications">08 - Duplications</a></li>
+<li><a href=3D"/display/RFR/09+-+Misc">09 - Misc</a></li>
+<li><a href=3D"/display/RFR/10+-+Spacing">10 - Spacing</a></li>
+</ul>
+<h2 id=3D"RobotFrameworkStyleGuideForOSI-WhenUsingPython...">When Using Pyt=
+hon ...</h2>
+<p>Follow all the python rules...&nbsp;<a href=3D"/display/TAG/Python">Pyth=
+on</a></p>
+    </div>
+</body>
+</html>
+------=_Part_2721_2116808790.1633987499544--

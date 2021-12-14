@@ -1,0 +1,315 @@
+Date: Mon, 11 Oct 2021 16:26:19 -0500 (CDT)
+Message-ID: <2095207402.2746.1633987579310@EASMN203V.uncle_bob.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2745_282176695.1633987579310"
+
+------=_Part_2745_282176695.1633987579310
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Folder Structure - Best Practices</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Folder Structure - Best Practices</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"FolderStructureBestPractices-ProjectFileStructure">Projec=
+t File Structure</h1>
+<p>The top level directories for a Robot Framework project are: CustomLibra=
+ries, Data, Resources, Results, Tasks, Tests&nbsp;<a href=3D"https://robotf=
+ramework.org/robotframework/latest/RobotFrameworkUserGuide.html#files-and-d=
+irectories" class=3D"external-link" rel=3D"nofollow">https://robotframework=
+.org/robotframework/latest/RobotFrameworkUserGuide.html#files-and-directori=
+es</a></p>
+<h2 id=3D"FolderStructureBestPractices-CustomLibraries"><strong>CustomLibra=
+ries</strong></h2>
+<ul>
+<li>Default location for Python based Keyword Libraries or utilities for th=
+e project.</li>
+<li><a href=3D"https://robotframework.org/robotframework/latest/RobotFramew=
+orkUserGuide.html#creating-test-libraries" class=3D"external-link" rel=3D"n=
+ofollow">https://robotframework.org/robotframework/latest/RobotFrameworkUse=
+rGuide.html#creating-test-libraries</a></li>
+</ul>
+<h2 id=3D"FolderStructureBestPractices-Data"><strong>Data</strong></h2>
+<ul>
+<li>Location to store static configuration files for the project.</li>
+<li>Any kind of data that handles environment, configurations, or other lar=
+ger testing concerns should be stored here.</li>
+<li>Store .yaml files, ArgumentsFile .robot files, Environment .resource fi=
+les, etc ...</li>
+<li><strong>Do not store Test specific data here.</strong></li>
+</ul>
+<h2 id=3D"FolderStructureBestPractices-Resources"><strong>Resources</strong=
+></h2>
+<ul>
+<li>This is the location where all supporting Robot Framework Keywords are =
+typically stored.</li>
+<li>Organization within this directory is guided by product organization or=
+ functionality.</li>
+<li>There should be a Common Directory for project wide resources</li>
+<li><a href=3D"https://robotframework.org/robotframework/latest/RobotFramew=
+orkUserGuide.html#resource-file-structure" class=3D"external-link" rel=3D"n=
+ofollow">https://robotframework.org/robotframework/latest/RobotFrameworkUse=
+rGuide.html#resource-file-structure</a></li>
+</ul>
+<h2 id=3D"FolderStructureBestPractices-Results"><strong>Results</strong></h=
+2>
+<ul>
+<li>A target folder for test reports.</li>
+<li>Containing nothing functionally, but designates a folder for the logs r=
+eports output files.</li>
+<li><a href=3D"https://robotframework.org/robotframework/latest/RobotFramew=
+orkUserGuide.html#test-results" class=3D"external-link" rel=3D"nofollow">ht=
+tps://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html=
+#test-results</a></li>
+</ul>
+<h2 id=3D"FolderStructureBestPractices-Tasks"><strong>Tasks</strong></h2>
+<ul>
+<li>.robot files that are similar to tests but labelled as tasks.</li>
+<li>The key difference is that a Task is typically used to be a resource fo=
+r non-test actions.</li>
+<li><strong>Tasks cannot be run alongside Tests.</strong></li>
+<li><strong>Tasks cannot be referenced by Tests and Tests cannot be referen=
+ced by Tasks.</strong></li>
+<li><strong>Tasks cannot reference other Tasks.</strong></li>
+<li><a href=3D"https://robotframework.org/robotframework/latest/RobotFramew=
+orkUserGuide.html#creating-tasks" class=3D"external-link" rel=3D"nofollow">=
+https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.ht=
+ml#creating-tasks</a></li>
+</ul>
+<h2 id=3D"FolderStructureBestPractices-Tests"><strong>Tests</strong></h2>
+<ul>
+<li>.robot files that are tests.</li>
+<li>Organized to reflect test plans or product functionality.</li>
+<li><strong>Tests cannot be referenced by Tasks and Tasks cannot be referen=
+ced by Tests.</strong></li>
+<li><strong>Tests cannot reference other Tests.</strong></li>
+<li><a href=3D"https://robotframework.org/robotframework/latest/RobotFramew=
+orkUserGuide.html#creating-test-cases" class=3D"external-link" rel=3D"nofol=
+low">https://robotframework.org/robotframework/latest/RobotFrameworkUserGui=
+de.html#creating-test-cases</a></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_2745_282176695.1633987579310--

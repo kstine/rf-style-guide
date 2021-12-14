@@ -1,0 +1,296 @@
+Date: Mon, 11 Oct 2021 16:26:06 -0500 (CDT)
+Message-ID: <1750882237.2742.1633987566481@EASMN203V.uncle_bob.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2741_975043861.1633987566481"
+
+------=_Part_2741_975043861.1633987566481
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Custom Keyword Libraries (Python)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Custom Keyword Libraries (Python)</h1>
+    <div class=3D"Section1">
+        <div style=3D"display: none;">
+python -m robot.libdoc Resources\OMS\AdminConfiguration\ServiceTypesParserL=
+ibrary\ServiceTypesParserLibrary.py Resources\OMS\AdminConfiguration\Servic=
+eTypesParserLibrary\ServiceTypesParserLibrary.libspecpython -m robot.libdoc=
+ Resources\OMS\AdminConfiguration\ServiceTypesParserLibrary\ServiceTypesPar=
+serLibrary.py Resources\OMS\AdminConfiguration\ServiceTypesParserLibrary\Se=
+rviceTypesParserLibrary.libspec
+</div>
+<h4 id=3D"CustomKeywordLibraries(Python)-Step1:Createadirectorywiththenameo=
+fthelibraryinCapitalCasing">Step 1: Create a directory with the name of the=
+ library in CapitalCasing</h4>
+<p>example: CapitalCasingLibrary</p>
+<h4 id=3D"CustomKeywordLibraries(Python)-Step2:Createafilewithinthedirector=
+ywiththesamenameasthedirectorywitha'.py'extension">Step 2: Create a file wi=
+thin the directory with the same name as the directory with a '.py' extensi=
+on</h4>
+<p>example: CapitalCasingLibrary.py</p>
+<h4 id=3D"CustomKeywordLibraries(Python)-Step3:Basiclibraryscriptcodeexampl=
+e:">Step 3: Basic library script code example:</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>CapitalCasingLibrary.py</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">"""
+    Document the general functionality of the library here.
+    For much more information:
+    http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide=
+.html#creating-test-library-class-or-module
+"""
+from robot.api import logger
+from robot.api.deco import keyword, library
+from robot.libraries.BuiltIn import BuiltIn
+
+
+@library(scope=3D"GLOBAL", version=3D"0.1", auto_keywords=3DTrue)
+class CapitalCasingLibrary():
+
+    def __init__(self):
+        pass
+
+    @keyword("Do Things Keyword")
+    def do_things_keyword(self):
+        """
+            Do things!
+        """
+        logger.info("I did something")</pre>=20
+</div>
+</div>
+<h4 id=3D"CustomKeywordLibraries(Python)-Step4:RobotFrameworkLanguageServer=
+`Quirk`">Step 4: Robot Framework Language Server `Quirk`</h4>
+<p>You will need to generate a libspec file within the Custom Keyword Libra=
+ry module folder in order for this VSCode extension to work properly.</p>
+<p>To create a libspec file:</p>
+<p>python -m robot.libdoc &lt;Path to source\file.py&gt; &lt;Path to Source=
+\file.libspec&gt;</p>
+    </div>
+</body>
+</html>
+------=_Part_2741_975043861.1633987566481--
